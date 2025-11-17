@@ -1,0 +1,62 @@
+
+        <html>
+        <head>
+            <title>Bird Recognition Report</title>
+            <style>
+                body { font-family: Arial; margin: 20px; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ccc; padding: 8px; vertical-align: top;}
+                th { background: #f0f0f0; }
+            </style>
+        </head>
+        <body>
+            <h2>Bird Recognition Test Report</h2>
+            <table>
+                <tr>
+                    <th>File</th>
+                    <th>Expected</th>
+                    <th>Detected</th>
+                    <th>Score</th>
+                    <th>Status</th>
+                    <th>Failure Reasons</th>
+                    <th>Recommendation</th>
+                    <th>Screenshot</th>
+                </tr>
+                
+        <tr>
+            <td>chevalier_aboyeur.jpeg</td>
+            <td>Chevalier aboyeur</td>
+            <td>Chevalier aboyeur</td>
+            <td>96.05%</td>
+            <td style="color:green">PASS</td>
+            <td></td>
+            <td></td>
+            <td><img src="chevalier_aboyeur.png" width="180"/></td>
+        </tr>
+    
+        <tr>
+            <td>tarin_triste.jpeg</td>
+            <td>Tarin triste</td>
+            <td>Tarin des aulnes</td>
+            <td>88.2%</td>
+            <td style="color:red">FAIL</td>
+            <td>name_mismatch, low_confidence</td>
+            <td>Check the ML model predictions or dataset labels. Consider using higher-quality images or retraining the classifier.</td>
+            <td><img src="tarin_triste.png" width="180"/></td>
+        </tr>
+    
+        <tr>
+            <td>bergeronnette_printaniere.jpeg</td>
+            <td>Bergeronnette printanière</td>
+            <td>Bergeronnette printanière</td>
+            <td>77.55%</td>
+            <td style="color:red">FAIL</td>
+            <td>low_confidence</td>
+            <td>Consider using higher-quality images or retraining the classifier.</td>
+            <td><img src="bergeronnette_printaniere.png" width="180"/></td>
+        </tr>
+    
+            </table>
+        </body>
+        </html>
+    

@@ -1,0 +1,15 @@
+{
+  "file": "bergeronnette_printaniere.jpeg",
+  "expected": "Bergeronnette printanière",
+  "name": "Bergeronnette printanière",
+  "score": 77.55,
+  "passed": false,
+  "suggestions": {
+    "reasons": [
+      "low_confidence"
+    ],
+    "recommendation": "Consider using higher-quality images or retraining the classifier."
+  },
+  "screenshot": "bergeronnette_printaniere.png",
+  "timestamp": "2025-11-17T13:56:45.050Z"
+}

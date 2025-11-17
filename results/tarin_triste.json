@@ -1,0 +1,16 @@
+{
+  "file": "tarin_triste.jpeg",
+  "expected": "Tarin triste",
+  "name": "Tarin des aulnes",
+  "score": 88.2,
+  "passed": false,
+  "suggestions": {
+    "reasons": [
+      "name_mismatch",
+      "low_confidence"
+    ],
+    "recommendation": "Check the ML model predictions or dataset labels. Consider using higher-quality images or retraining the classifier."
+  },
+  "screenshot": "tarin_triste.png",
+  "timestamp": "2025-11-17T13:56:44.257Z"
+}
